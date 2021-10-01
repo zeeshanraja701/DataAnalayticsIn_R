@@ -1,0 +1,37 @@
+{
+ a=2
+ b=3
+ a+b
+}
+
+
+Calculate_Volume <- function(length,width,height){
+area <- length*width
+volume <- area*width
+
+return (volume)
+}
+
+
+store_volume=Calculate_Volume(0.9,0.7,0.10)
+
+
+prod <- function(x,y,z){
+product= x*y*z
+return (product)
+}
+product_is=prod(12,3,4)
+
+
+product_sum <- function(x,y,z){
+product=x*y*z
+sum=x+y+z
+list(product=product,sum=sum)
+}
+
+productAndSum=product_sum(1,2,3)
+
+
+
+
+
